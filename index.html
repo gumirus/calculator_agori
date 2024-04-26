@@ -1,91 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculator | agori</title>
-  <link rel="stylesheet" href="style.css">
-  <script type="module"src="index.js"defer></script>
-</head>
-<body>
-  <form class="calc">
-    <div class="calc__logo">
-      <span class="calc__j">αγόρι</span>
-    </div>
-    <div class="calc__memory"></div>
-    <div class="calc__error"></div>
-    <input class="calc__screen" type="text" name="output" maxlength="10" value="0" readonly>
-    <div class="calc__btns">
-      <button class="calc__btn calc__btn--secondary" type="button" data-fn="%" title="Percent" aria-label="Percent">
-        <span tabindex="-1">%</span>
-      </button>
-      <button class="calc__btn calc__btn--secondary" type="button" data-fn="sqrt" title="Square Root" aria-label="Square Root">
-        <span tabindex="-1"><small>&radic;</small></span>
-      </button>
-      <button class="calc__btn calc__btn--secondary" type="button" data-fn="+-" title="Negate Value" aria-label="Negate Value" >
-        <span tabindex="-1"><small>+/-</small></span>
-      </button>
-      <button class="calc__btn calc__btn--primary" type="button" data-fn="C" title="Clear" aria-label="Clear" >
-        <span tabindex="-1">C</span>
-      </button>
-      <button class="calc__btn calc__btn--secondary" type="button" data-fn="mrc" title="Recall/Clear Memory" aria-label="Recall/Clear Memory" >
-        <span tabindex="-1"><small>MRC</small></span>
-      </button>
-      <button class="calc__btn calc__btn--secondary" type="button" data-fn="m-" title="Subtract From Memory" aria-label="Subtract From Memory" >
-        <span tabindex="-1"><small>M-</small></span>
-      </button>
-      <button class="calc__btn calc__btn--secondary" type="button" data-fn="m+" title="Add To Memory" aria-label="Add To Memory">
-        <span tabindex="-1"><small>M+</small></span>
-      </button>
-      <button class="calc__btn calc__btn--secondary" type="button" data-fn="/" title="Divided By" aria-label="Divided By">
-        <span tabindex="-1">&divide;</span>
-      </button>
-      <button class="calc__btn" type="button" data-fn="7">
-        <span tabindex="-1">7</span>
-      </button>
-      <button class="calc__btn" type="button" data-fn="8">
-        <span tabindex="-1">8</span>
-      </button>
-      <button class="calc__btn" type="button" data-fn="9">
-        <span tabindex="-1">9</span>
-      </button>
-      <button class="calc__btn calc__btn--secondary" type="button" data-fn="*" title="Times" aria-label="Times">
-        <span tabindex="-1">&times;</span>
-      </button>
-      <button class="calc__btn" type="button" data-fn="4">
-        <span tabindex="-1">4</span>
-      </button>
-      <button class="calc__btn" type="button" data-fn="5">
-        <span tabindex="-1">5</span>
-      </button>
-      <button class="calc__btn" type="button" data-fn="6">
-        <span tabindex="-1">6</span>
-      </button>
-      <button class="calc__btn calc__btn--secondary" type="button" data-fn="-" title="Minus" aria-label="Minus">
-        <span tabindex="-1">-</span>
-      </button>
-      <button class="calc__btn" type="button" data-fn="1">
-        <span tabindex="-1">1</span>
-      </button>
-      <button class="calc__btn" type="button" data-fn="2">
-        <span tabindex="-1">2</span>
-      </button>
-      <button class="calc__btn" type="button" data-fn="3">
-        <span tabindex="-1">3</span>
-      </button>
-      <button class="calc__btn calc__btn--secondary calc__btn--tall" type="button" data-fn="+" title="Plus" aria-label="Plus">
-        <span tabindex="-1">+</span>
-      </button>
-      <button class="calc__btn" type="button" data-fn="0">
-        <span tabindex="-1">0</span>
-      </button>
-      <button class="calc__btn" type="button" data-fn="." aria-label="Point">
-        <span tabindex="-1">.</span>
-      </button>
-      <button class="calc__btn" type="button" data-fn="=" title="Equals" aria-label="Equals">
-        <span tabindex="-1">=</span>
-      </button>
-    </div>
-  </form>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator | agori</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module"src="index.js"defer></script>
+  </head>
+  <body>
+    <form class="calc">
+      <div class="calc__logo">
+        <span class="calc__j">αγόρι</span>
+      </div>
+      <div class="calc__memory"></div>
+      <div class="calc__error"></div>
+      <input class="calc__screen" type="text" name="output" maxlength="10" value="0" readonly>
+      <div class="calc__btns">
+        <button class="calc__btn calc__btn--secondary" type="button" data-fn="%" title="Percent" aria-label="Percent">
+          <span tabindex="-1">%</span>
+        </button>
+        <button class="calc__btn calc__btn--secondary" type="button" data-fn="sqrt" title="Square Root" aria-label="Square Root">
+          <span tabindex="-1"><small>&radic;</small></span>
+        </button>
+        <button class="calc__btn calc__btn--secondary" type="button" data-fn="+-" title="Negate Value" aria-label="Negate Value" >
+          <span tabindex="-1"><small>+/-</small></span>
+        </button>
+        <button class="calc__btn calc__btn--primary" type="button" data-fn="C" title="Clear" aria-label="Clear" >
+          <span tabindex="-1">C</span>
+        </button>
+        <button class="calc__btn calc__btn--secondary" type="button" data-fn="mrc" title="Recall/Clear Memory" aria-label="Recall/Clear Memory" >
+          <span tabindex="-1"><small>MRC</small></span>
+        </button>
+        <button class="calc__btn calc__btn--secondary" type="button" data-fn="m-" title="Subtract From Memory" aria-label="Subtract From Memory" >
+          <span tabindex="-1"><small>M-</small></span>
+        </button>
+        <button class="calc__btn calc__btn--secondary" type="button" data-fn="m+" title="Add To Memory" aria-label="Add To Memory">
+          <span tabindex="-1"><small>M+</small></span>
+        </button>
+        <button class="calc__btn calc__btn--secondary" type="button" data-fn="/" title="Divided By" aria-label="Divided By">
+          <span tabindex="-1">&divide;</span>
+        </button>
+        <button class="calc__btn" type="button" data-fn="7">
+          <span tabindex="-1">7</span>
+        </button>
+        <button class="calc__btn" type="button" data-fn="8">
+          <span tabindex="-1">8</span>
+        </button>
+        <button class="calc__btn" type="button" data-fn="9">
+          <span tabindex="-1">9</span>
+        </button>
+        <button class="calc__btn calc__btn--secondary" type="button" data-fn="*" title="Times" aria-label="Times">
+          <span tabindex="-1">&times;</span>
+        </button>
+        <button class="calc__btn" type="button" data-fn="4">
+          <span tabindex="-1">4</span>
+        </button>
+        <button class="calc__btn" type="button" data-fn="5">
+          <span tabindex="-1">5</span>
+        </button>
+        <button class="calc__btn" type="button" data-fn="6">
+          <span tabindex="-1">6</span>
+        </button>
+        <button class="calc__btn calc__btn--secondary" type="button" data-fn="-" title="Minus" aria-label="Minus">
+          <span tabindex="-1">-</span>
+        </button>
+        <button class="calc__btn" type="button" data-fn="1">
+          <span tabindex="-1">1</span>
+        </button>
+        <button class="calc__btn" type="button" data-fn="2">
+          <span tabindex="-1">2</span>
+        </button>
+        <button class="calc__btn" type="button" data-fn="3">
+          <span tabindex="-1">3</span>
+        </button>
+        <button class="calc__btn calc__btn--secondary calc__btn--tall" type="button" data-fn="+" title="Plus" aria-label="Plus">
+          <span tabindex="-1">+</span>
+        </button>
+        <button class="calc__btn" type="button" data-fn="0">
+          <span tabindex="-1">0</span>
+        </button>
+        <button class="calc__btn" type="button" data-fn="." aria-label="Point">
+          <span tabindex="-1">.</span>
+        </button>
+        <button class="calc__btn" type="button" data-fn="=" title="Equals" aria-label="Equals">
+          <span tabindex="-1">=</span>
+        </button>
+      </div>
+    </form>
+  </body>
 </html>
